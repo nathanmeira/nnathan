@@ -27,12 +27,6 @@
               </div>
             </div>
             <div class="sm:col-span-2">
-              <label for="phone-number" class="block text-sm font-medium text-gray-700">Phone Number</label>
-              <div class="relative mt-1 rounded-md shadow-sm">
-                <input type="text" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-gray-300 py-3 px-4 focus:border-indigo-500 focus:ring-indigo-500" placeholder="+1 (555) 987-6543" />
-              </div>
-            </div>
-            <div class="sm:col-span-2">
               <label for="message" class="block text-sm font-medium text-gray-700">Message *</label>
               <div class="mt-1">
                 <textarea id="message" name="message" rows="4" class="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" />

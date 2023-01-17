@@ -1,10 +1,11 @@
 <template>
-  <header class="bg-gray-800">
+  <header class="bg-zinc-800">
     <div class="mx-auto px-6">
       <div class="flex items-center justify-between py-4 space-x-10">
-        <router-link class="text-2xl text-gray-300 no-underline" to="/">nnathan.com</router-link>
+        <router-link class="text-2xl text-gray-900 no-underline" to="/">nnathan.com</router-link>
         <div class="hidden md:flex md:items-center">
-          <router-link class="text-gray-300 no-underline px-3" to="/work">My Work</router-link>
+          <router-link class="text-gray-300 no-underline px-3" to="/work">Portfolio</router-link>
+          <router-link class="text-gray-300 no-underline px-3" to="/work">Timeline</router-link>
           <router-link class="text-gray-300 no-underline px-3" to="/contact">Contact</router-link>
         </div>
         <div class="md:hidden">
@@ -19,21 +20,14 @@
         </div>
       </div>
     </div>
-    <header class="bg-white shadow">
-      <div class="mx-auto py-6 px-6">
-        <h1 class="text-xl font-bold tracking-tight text-gray-900"> {{ routeName }} </h1>
-      </div>
-    </header>
-    <transition name="menu-slide">
-      <div v-if="showMobileMenu" class="fixed h-full bg-white z-40 w-3/5 shadow-2xl">
+    <transition name="menu-fade">
+      <div v-if="showMobileMenu" class="fixed top-16 left-0 h-full bg-white z-40 w-full shadow-2xl overflow-hidden">
         <div class="relative">
           <div class="absolute inset-0 h-full">
-            <div class="bg-white h-full">
-              <router-link class="block py-2 px-4 text-gray-800 no-underline" to="/">Home</router-link>
+            <div class="mt-6 px-4 bg-white h-full">
+              <router-link class="block py-2 px-4 text-gray-800 no-underline" to="/portfolio">Portfolio</router-link>
               <hr>
-              <router-link class="block py-2 px-4 text-gray-800 no-underline" to="/work">My Work</router-link>
-              <hr>
-              <router-link class="block py-2 px-4 text-gray-800 no-underline" to="/contact">Contact</router-link>
+              <router-link class="block py-2 px-4 text-gray-800 no-underline" to="/timeline">Timeline</router-link>
             </div>
           </div>
         </div>
@@ -49,41 +43,28 @@ export default {
       showMobileMenu: false
     }
   },
-  computed: {
-    routeName() {
-      const route = this.$route.name
-      if (route === '/' || route === 'index') {
-        return 'Home'
-      }
-      if (route === 'work') {
-        return 'My Work'
-      }
-      else {
-        return this.$route.name.charAt(0).toUpperCase() + this.$route.name.slice(1)
-      }
-    }
-  }
 }
 </script>
 
 <style>
-.menu-slide-enter-active, .menu-slide-leave-active {
+.menu-fade-enter-active, .menu-fade-leave-active {
   transition: all 0.3s ease-out;
 }
-.menu-slide-enter {
-  transform: translateX(-100%);
+.menu-fade-enter {
+  opacity: 0;
 }
-.menu-slide-enter-to {
-  transform: translateX(0);
+.menu-fade-enter-to {
+  opacity: 1;
 }
-.menu-slide-leave {
-  transform: translateX(0);
+.menu-fade-leave {
+  opacity: 1;
 }
-.menu-slide-leave-to {
-  transform: translateX(-100%);
+.menu-fade-leave-to {
+  opacity: 0;
 }
 
 hr {
   @apply mx-2;
 }
+
 </style>
