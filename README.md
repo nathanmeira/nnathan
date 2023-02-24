@@ -10,7 +10,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 - [x] Create content
 - [x] Code Home Page
 - [x] Code Timeline Page
-- [ ] Code Portfolio Page
+- [x] Code Portfolio Page
 - [ ] Code Individual Project Page
 - [ ] Code Contact Page
 - [ ] Populate with content
