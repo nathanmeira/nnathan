@@ -2,6 +2,7 @@
   {
     "slug": "lazy-opener",
     "name": "Lazy Opener",
+    "category": "Development",
     "description": "This is the Lazy Opener description",
     "source": "https://github.com/nathanmeira/lazyopener",
     "demo": "https://nathanmeira.github.io/lazyopener/",
@@ -14,6 +15,7 @@
   {
     "slug": "pet-hut",
     "name": "Pet Hut",
+    "category": "Development",
     "description": "This is the Pet Hut description",
     "source": "https://github.com/nathanmeira/pethut",
     "demo": "https://nathanmeira.github.io/pethut",

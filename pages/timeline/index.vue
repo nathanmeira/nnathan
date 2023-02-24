@@ -1,7 +1,7 @@
 <template>
   <PageWrap>
     <section>
-      <div class="bg-black text-white py-8">
+      <div class="text-white py-8">
         <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <p class="text-yellow-300 uppercase tracking-loose vueGreen">Timeline</p>
