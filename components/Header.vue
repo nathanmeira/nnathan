@@ -4,7 +4,7 @@
       <div id="left-side" class="side">
         <h2 class="title">
           <p>Hey, I'm <b>Nathan</b>!</p>
-          and I'm a <span class="fancy">Developer</span>
+          and I'm a <span class="terminal">Developer</span>
         </h2>
       </div>
       <div id="right-side" class="side">
@@ -41,14 +41,11 @@ export default {
 <style>
 :root {
   --dark: rgb(20, 20, 20);
-  --yellow: rgb(253, 216, 53);
-  --blue: rgb(98, 0, 234);
 
-  --c1: rgb(38, 70, 83);
-  --c2: rgb(42, 157, 143);
+  --vue: rgb(42, 157, 143);
 
-  --left-color: var(--c1);
-  --right-color: var(--c2);
+  --left-color: var(--dark);
+  --right-color: var(--vue);
 }
 
 body {
@@ -78,8 +75,15 @@ body {
   line-height: 0.8em;
 }
 
+.side .terminal {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1em;
+  line-height: 0.8em;
+  color: var(--right-color);
+}
+
 #left-side {
-  background-color: var(--left-color);
+  background-color: var(--dark);
   width: 60%;
   z-index: 2;
 }
