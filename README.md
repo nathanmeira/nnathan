@@ -11,9 +11,9 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 - [x] Code Home Page
 - [x] Code Timeline Page
 - [x] Code Portfolio Page
-- [ ] Code Individual Project Page
+- [x] Code Individual Project Page
 - [ ] Code Contact Page
-- [ ] Populate with content
+- [x] Populate with content
 - [ ] Create Terraform
 - [ ] Ship in AWS
 
@@ -34,7 +34,8 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 
 ### 📸 Screenshots
 
-> Soon
+![Screenshot 1](https://cdn.discordapp.com/attachments/908819758974140467/1079182569528111205/image.png)
+![Screenshot 2](https://cdn.discordapp.com/attachments/908819758974140467/1079182806959263764/image.png)
 
 ---
 
