@@ -1,28 +1,70 @@
 [
   {
-    "slug": "lazy-opener",
-    "name": "Lazy Opener",
-    "category": "Development",
-    "description": "This is the Lazy Opener description",
-    "source": "https://github.com/nathanmeira/lazyopener",
-    "demo": "https://nathanmeira.github.io/lazyopener/",
-    "images": [
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/800x600"
-    ]
-  },
-  {
     "slug": "pet-hut",
     "name": "Pet Hut",
     "category": "Development",
-    "description": "This is the Pet Hut description",
+    "description": "This project is for study purposes, created just for fun. The original layout was created by Bruno Totoro from scratch.",
     "source": "https://github.com/nathanmeira/pethut",
     "demo": "https://nathanmeira.github.io/pethut",
     "images": [
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/800x600",
-      "https://source.unsplash.com/random/800x600"
+      "https://camo.githubusercontent.com/9f89ad6677cca743a0d83f7b28685c47d53851826993e3a99a853f2356525f61/68747470733a2f2f692e696d6775722e636f6d2f6552747839686e2e706e67"
+    ],
+    "stack": [
+      "Nuxt.js",
+      "Tailwind",
+      "Javascript"
+    ]
+  },
+  {
+    "slug": "nnathan",
+    "name": "NNATHAN.COM",
+    "category": "Development / Design",
+    "description": "Get ready to check out my brand new portfolio website, because it's not just a revamped version of nnathan.com - it's a complete overhaul with tons of amazing new features.",
+    "source": "https://github.com/nathanmeira/nnathan",
+    "demo": "#",
+    "images": [
+      "https://camo.githubusercontent.com/6acc8aba158c0a9c7cca66435a91bcf7e421b21fc92f1ad42277e10e273451b6/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636333831343336343936323932362f696d6167652e706e67",
+      "https://camo.githubusercontent.com/cec0a09108f27a9514256c6d406183fe4cadee2b69835580b3e1e8e21a010f9b/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636323736363635373139323036372f696d6167652e706e67"
+    ],
+    "stack": [
+      "Nuxt.js",
+      "Tailwind",
+      "Javascript"
+    ]
+  },
+  {
+    "slug": "weather-checker",
+    "name": "Weather Checker",
+    "category": "Development / Design",
+    "description": "Check weather information in any city, powered by Open Weather API.",
+    "source": "https://github.com/nathanmeira/weather-checker",
+    "demo": "#",
+    "images": [
+      "https://camo.githubusercontent.com/31be5f49c7632644c03f3771a43357769a9910a8e243b1b7ca7dbdcabe5ce521/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636303939303037353833343433382f696d6167652e706e67",
+      "https://camo.githubusercontent.com/62d1d8a1cb988cd88e8f8f24704ca77bfa84f5a9215eaffe67fb60958ddb9ba3/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636303933363432363439323036352f696d6167652e706e67",
+      "https://camo.githubusercontent.com/87315bbded4e240101920a2bfa1c042a0e2b46a096bc09628f828fcbb39a5fde/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373635393332333435363535373139372f696d6167652e706e67"
+    ],
+    "stack": [
+      "Nuxt.js",
+      "Tailwind",
+      "Javascript"
+    ]
+  },
+  {
+    "slug": "name-list-statistics",
+    "name": "Name List Statistics",
+    "category": "Development",
+    "description": "Find out the number of masculine and feminine names in a list. The logic compares the input list against separate lists for masculine and feminine names, producing a count of the occurrences in each category.",
+    "source": "https://github.com/nathanmeira/name-list-statistics",
+    "demo": "#",
+    "images": [
+      "https://camo.githubusercontent.com/6acc8aba158c0a9c7cca66435a91bcf7e421b21fc92f1ad42277e10e273451b6/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636333831343336343936323932362f696d6167652e706e67",
+      "https://camo.githubusercontent.com/cec0a09108f27a9514256c6d406183fe4cadee2b69835580b3e1e8e21a010f9b/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3930383831393735383937343134303436372f313037373636323736363635373139323036372f696d6167652e706e67"
+    ],
+    "stack": [
+      "Nuxt.js",
+      "Tailwind",
+      "Javascript"
     ]
   }
 ]

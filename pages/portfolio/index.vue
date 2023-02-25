@@ -1,4 +1,3 @@
-
 <template>
   <PageWrap>
       <div class="mx-auto max-w-2xl py-8 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -11,7 +10,7 @@
         <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           <div v-for='work in works' :key='work.id'>
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105">
-              <div class="flex-shrink-0">
+              <div class="flex-shrink-0 bg-white">
                 <img class="h-48 w-full object-cover" :src="work.images[0]" alt="">
               </div>
               <div class="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -26,7 +25,7 @@
                     {{ work.description }}
                   </p>
                   <router-link :to="`/portfolio/work/${work.slug}`">
-                    <div class='mt-4 py-2 px-2 border text-center text-white border-outline-green rounded-md' style='background-color: #2a9d8f'>View more</div>
+                    <div class='mt-4 py-2 px-2 border text-center text-white bg-gray-700 border-outline-green rounded-md transition-all hover:bg-gray-200 hover:text-gray-700'>View more</div>
                   </router-link>
                 </div>
               </div>
@@ -50,3 +49,9 @@ export default {
 }
 
 </script>
+
+<style scoped>
+  .vueGreen {
+    color: #2a9d8f;
+  }
+</style>

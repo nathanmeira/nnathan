@@ -9,6 +9,7 @@
             <p class="text-sm md:text-base text-gray-50 mb-4">
               This is my timeline. Check my collection of academic & professional events as well as some experiences along the way.
             </p>
+            <a href='/portfolio' class="md:w-1/2 text-medium text-center px-4 py-2 border-white border hover:text-gray-700 hover:bg-white rounded-md text-white">Check my work</a>
           </div>
           <div id="timeline" class="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div class="container mx-auto w-full h-full">

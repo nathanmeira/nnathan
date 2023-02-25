@@ -4,8 +4,8 @@
       <div class="flex items-center justify-between py-4 space-x-10">
         <router-link class="text-2xl text-gray-800 no-underline" to="/">nnathan.com</router-link>
         <div class="hidden md:flex md:items-center">
-          <router-link class="text-gray-800 no-underline px-3" to="/portfolio">Portfolio</router-link>
           <router-link class="text-gray-800 no-underline px-3" to="/timeline">Timeline</router-link>
+          <router-link class="text-gray-800 no-underline px-3" to="/portfolio">Portfolio</router-link>
         </div>
         <div class="md:hidden">
           <button class="text-gray-800 flex self-center no-underline" @click="showMobileMenu = !showMobileMenu">
@@ -24,9 +24,9 @@
         <div class="relative">
           <div class="absolute inset-0 h-full">
             <div class="mt-2 px-8 bg-white h-full">
-              <DropdownWorkMenu />
-              <hr>
               <router-link class="block text-xl py-2 text-gray-800 no-underline" to="/timeline">Timeline</router-link>
+              <hr>
+              <DropdownWorkMenu />
             </div>
           </div>
         </div>

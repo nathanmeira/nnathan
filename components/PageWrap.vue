@@ -6,14 +6,9 @@
     <div class='flex-1'>
       <slot />
     </div>
-    <Footer class='w-full' />
+    <Footer />
   </div>
 </template>
 
 <style>
-/* Set the footer to always stay at the bottom */
-.footer {
-  position: sticky;
-  bottom: 0;
-}
 </style>
