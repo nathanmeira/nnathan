@@ -19,7 +19,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 
 2nd Launch 🚀 
 - [ ] Content Modelling
-- [ ] Integrate with Strapi CMS
+- [ ] Integrate with Strapi CMS - _In Progress_
 - [ ] Update Terraform
 - [ ] Ship in AWS
 
