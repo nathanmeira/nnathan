@@ -14,6 +14,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 - [ ] Code Contact Page
 - [ ] Create content
 - [ ] Populate with content
+- [ ] Ship in GitHub Pages
 
 2nd Launch 🚀
 - [ ] Content Modelling
