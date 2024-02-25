@@ -1,75 +1,52 @@
-# Nuxt 3 Minimal Starter
+# NNATHAN.COM
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Get ready to check out my brand new portfolio website, because it's not just a revamped version of nnathan.com - it's a complete overhaul!
 
-## Setup
+### 🗺️ Roadmap
 
-Make sure to install the dependencies:
+1st Launch 🚀
+- [x] Create Figma Lo-Fi (concept)
+- [x] Create Figma Hi-Fi (final design)
+- [x] Code Home Page
+- [x] Code Portfolio Page
+- [ ] Code Individual Project Page
+- [ ] Code Timeline Page
+- [ ] Code Contact Page
+- [ ] Create content
+- [ ] Populate with content
+
+2nd Launch 🚀
+- [ ] Content Modelling
+- [ ] Integrate with Strapi CMS
+- [ ] Create Terraform
+- [ ] Ship in AWS
+
+### 🔧 Stack
+
+- Nuxt 3
+- Bun
+- Tailwind CSS
+- JavaScript
+- AWS
+- Terraform
+- Strapi CMS
+
+### 📸 Screenshots
+
+> Soon
+
+---
+
+## 🧰 Build Setup
 
 ```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
+# Install dependencies
 bun install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
+# Serve with hot reload at localhost:3000
 bun run dev
-```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
+# Build for production and launch server
 bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
