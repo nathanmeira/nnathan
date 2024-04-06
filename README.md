@@ -22,7 +22,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 - [ ] Create Terraform
 - [ ] Ship in AWS
 
-### 🔧 Stack
+### 🧰 Stack
 
 - Nuxt 3
 - Bun
@@ -38,7 +38,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 
 ---
 
-## 🧰 Build Setup
+## 🔧 Build Setup
 
 ```bash
 
