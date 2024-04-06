@@ -59,7 +59,7 @@ export default {
       menuItems: [
         {name: 'Home', link: '/'},
         {name: 'Portfolio', link: '/portfolio'},
-        {name: 'My timeline', link: '/timeline'},
+        {name: 'My Timeline', link: '/timeline'},
         {name: 'Contact', link: '/contact'}
       ]
     };

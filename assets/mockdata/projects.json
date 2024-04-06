@@ -1,0 +1,47 @@
+[
+  {
+    "name": "CIBC Capital Markets",
+    "description": "CIBC Capital Markets is a prominent financial institution, and I made significant contributions to their website while working at Dog And Pony Studios. Specifically, I worked on building the insights section and later transitioned to focusing on accessibility improvements across various components to ensure compliance with accessibility standards. Additionally, I was responsible for the maintenance of some features, providing ongoing support and optimization to ensure the smooth functioning of the website.",
+    "thumbnail": "https://cibccm.com/images/logo.svg",
+    "preview": "https://i.imgur.com/THwCqg7.png",
+    "url": "https://cibccm.com/",
+    "tags": ["Finance", "Banking", "Investment"],
+    "slug": "cibc-capital-markets"
+  },
+  {
+    "name": "S&P Global Sustainable1",
+    "description": "At S&P Global Sustainable1, in collaboration with Dog And Pony Studios, I played a key role in building various pages and layouts based on designs provided in Figma. This involved implementing interactive features such as quizzes, graphs, and other components to enhance user engagement. Additionally, I was responsible for updating content and event pages, ensuring alignment with the latest information and design standards outlined in Figma. My contributions helped enhance the overall user experience and functionality of the Sustainable1 platform.",
+    "thumbnail": "https://mma.prnewswire.com/media/1493928/Sustainable1_Logo.jpg?p=publish",
+    "preview": "https://i.imgur.com/6w6hjFO.png",
+    "url": "https://www.spglobal.com/esg/",
+    "tags": ["Finance", "Sustainability", "Investment"],
+    "slug": "spglobal-sustainable1"
+  },
+  {
+    "name": "S&P Market Intelligence",
+    "description": "At S&P Market Intelligence, a division of S&P Global, and working in collaboration with Dog And Pony Studios, I contributed to the development and maintenance of various sections of the platform. This included implementing new features, updating existing content, and ensuring the alignment of pages with design specifications. Leveraging my expertise, I contributed to building interactive elements and optimizing user experiences. Working within the framework provided, I helped enhance the functionality and usability of the Market Intelligence platform.",
+    "thumbnail": "https://www.spglobal.com/_assets/images/marketintelligence/logo-mi.png",
+    "preview": "https://i.imgur.com/7qooLMV.png",
+    "url": "https://www.spglobal.com/marketintelligence/",
+    "tags": ["Finance", "Data Analysis", "Investment"],
+    "slug": "spglobal-market-intelligence"
+  },
+  {
+    "name": "SIDExchange",
+    "description": "SIDE (Securities Industry Data Exchange) is a leading market infrastructure platform developed by industry experts. As part of Dog And Pony Studios, I contributed to the transformation of their website, leveraging Figma designs to refactor and enhance various features. This included updating content, developing interactive components, and ensuring accessibility compliance across the platform. Additionally, I undertook maintenance responsibilities for key features, ensuring optimal performance and user experience for SIDE's clientele.",
+    "thumbnail": "https://sidexchange.com/dist/img/5d1e1834e5bb23f87a12d66480b9c3dd.svg",
+    "preview": "https://i.imgur.com/h9vPUSm.png",
+    "url": "https://sidexchange.com/",
+    "tags": ["Finance", "Technology", "Investment"],
+    "slug": "sidexchange"
+  },
+  {
+    "name": "SIDE INTEGRATE system",
+    "description": "SIDE INTEGRATE is SIDE's data integration platform. As part of my work with Dog and Pony Studios, I contributed to building its front-end interface connected to SIDE's API. It's a service offering real-time application of business rules and supports various industry formats and protocols.",
+    "thumbnail": "https://sidexchange.com/dist/img/5d1e1834e5bb23f87a12d66480b9c3dd.svg",
+    "preview": "",
+    "url": "",
+    "tags": ["Finance", "Technology", "Investment"],
+    "slug": "side-integrate"
+  }
+]

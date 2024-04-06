@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: ['tailwindcss'],
+  generate: {
+    routes: [
+      '/portfolio/:slug',
+    ]
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
