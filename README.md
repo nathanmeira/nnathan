@@ -9,7 +9,7 @@ Get ready to check out my brand new portfolio website, because it's not just a r
 - [x] Create Figma Hi-Fi (final design)
 - [x] Code Home Page
 - [x] Code Portfolio Page
-- [ ] Code Individual Project Page
+- [x] Code Individual Project Page
 - [ ] Code Timeline Page
 - [ ] Code Contact Page
 - [ ] Create content
